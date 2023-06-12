@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Merienda&family=Poppins:wght@300&display=swap');
+
+body{
+    background-image: url(imagenes/suelos-madera-marron.png);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.logo-gif{
+    background-image: url(imagenes/cocina\ facil.gif);
+    background-attachment: fixed;
+    width: 430px;
+    height: 254px;
+    background-size: 280PX;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: -240px;
+    margin-left: 276px;
+    background-color: #003865;
+    border-radius: 7px;
+    width: auto;
+    height: 40px;
+
+    
+}
+  
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav li{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background: transparent; 
+    font-family: 'Geologica', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: space-between;*/ 
+    padding-inline: 6px;
+    border: transparent;
+
+}
+nav a:hover{
+    background-color: #957777;
+    color: black;
+    font-size: 24px;
+    font-family: 'Geologica', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  
+  .button-menu-toggle {
+    display: none;
+  }
+
+
+.contenedor{
+    font-family: 'Geologica', sans-serif;
+    font-size: 10px;
+    color: white;
+    background-color: #02546457;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left:300px ;
+    margin-top: 20px;
+    border: 2px solid  #025464;
+    width: auto;
+    height: auto;
+}
+.tituloC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.tituloC2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+footer{
+    position: relative;
+    bottom: 0%;
+    height: 200px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.pf{
+    font-family: 'Geologica', sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    min-height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+}
+
+
+.botonalert{
+display: flex;
+justify-content: center;
+margin-inline: auto;
+}
+
+
+@media (max-width: 600px) {
+    nav ul{
+        display: inline-grid;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        display: flex;
+        margin-top: 19px;
+        border-radius: 2px;
+        background-color: #003865;
+        border-radius: 7px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: auto;
+        width: auto;
+        height: auto;
+    }
+    nav li{
+        display: inline-flex;
+        
+    }
+    
+    nav a{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background: transparent; 
+        border-radius: 20px;
+        font-family: 'Geologica', sans-serif;
+        font-size: 20px;  
+    }
+
+    .column {
+      flex: 100%;
+    }
+
+
+    .nav-links {
+      display: none;
+    }
+
+
+    .button-menu-toggle {
+      display: block;
+      background-color: #003865;
+      border:none;
+      border-radius: 20px;
+      padding: 0 24px;
+      font-family: 'Geologica', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    .button-menu-toggle:hover{
+      background-color: #957777;
+      color: black;
+      font-size: 24px;
+      font-family: 'Geologica', sans-serif;
+    }
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: #00386556;
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+
+
+    }
+
+    .contenedor{
+        margin-left: 0px ;
+        margin-top: 0px;
+    }
+}

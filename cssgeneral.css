@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Merienda&family=Poppins:wght@300&display=swap');
+
+body{
+    background-image: url(imagenes/suelos-madera-marron.png);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Geologica', sans-serif;
+    font-size: 22px;
+    background-color: #003865;
+    border-radius: 10px;
+    color: white;
+}
+
+p{
+    font-family: 'Geologica', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #0254645e;
+}
+ul{
+    font-family: 'Geologica', sans-serif;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #025464;
+    border-radius: 10px;
+    background-color: #025464;
+}
+
+
+footer{
+    position: relative;
+    bottom: 0%;
+    height: 200px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.pf{
+    font-family: 'Geologica', sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    min-height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+}
+
+
+.botonalert{
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+form{
+    border: 2px solid #0254644f;
+    background-color: #0254644f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    width: 400px;
+    height: 400px;
+
+}
+
+@media (max-width: 700px) {
+    .containerImg{
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+        justify-content: start;
+        align-items: center;
+        height: 300px;
+    }
+
+    img{
+        height: 300px;
+    
+    }
+
+    .form{
+        width: auto;
+        height: auto;
+    }
+
+    footer{
+        position: relative;
+        bottom: 0%;
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="cssgeneral.css">
+</head>
+<body>
+    <main class="main">
+        <h1>Contacto</h1>
+        <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+        <form class="form">
+            <!-- nombre de usuario -->
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre">
+            
+            <!-- campo para correo electronico -->
+            <label for="email">Ingresar Correo electronico:</label>
+            <input type="email" id="email" name="email">
+            
+            <!-- campo para mensaje -->
+            <label for="mensaje">Escribe un mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        
+            <!-- campo para elegir pais -->
+            <label for="pais">Selecciona tu Pais:</label>
+        <select name="pais" id="pais">
+            <option value="argetina">Argetina</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="colombia">Colombia</option>
+            <option value="chile">Chile</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="peru">Perú</option>
+        </select>
+        
+            <!-- boton de envio -->
+            <button type="submit">Enviar</button>
+        
+        </form>
+</main>
+<footer> 
+    <p class="pf">este es el contenido del footer</p>
+    
+</footer>
+    <button class="botonalert" onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+    <script src="javaContacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body> 
+    <div class="logo-gif"></div>
+        <header> <!-- <header></header> y <nav></nav> para el contenido de la barra de navegacion-->
+            <div class="container-nav">
+                <nav class="navbar" role="navigation">
+                    <ul class="nav-links">
+                        <li ><a href="index.html">Inicio</a></li>
+                        <li ><a href="indexRecetas.html">Recetas</a></li>
+                        <li ><a href="indexCursos.html">Cursos</a></li>
+                        <li ><a href="indexGaleria.html">Galeria</a></li>
+                        <li ><a href="indexMiCuenta.html">Cuenta</a></li>
+                        <li ><a href="indexContacto.html">Contacto</a></li>
+                    
+                    </ul>
+                </nav>
+                <button class="button-menu-toggle">Menu</button>
+            </div>
+        </header>
+    <div class="contenedor">
+        <main class="main"> <!--<main></main> para el contenido principal-->
+                <h1 class="tituloC">Bienvenidos a mi primer Website</h1>
+            <section>
+              <h2 class="tituloC2">Presentación</h2>
+              <p class="parrafos">Soy Malena, ¡y esta es mi primera página web!</p>
+              <p class="parrafos">Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+            </section>       
+            <section>
+              <h2 class="tituloC2">Lo que se viene...</h2>
+              <p class="parrafos">
+                A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.
+              </p>
+         </main>       
+              <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/qWcwFMAqpME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+                Para un video de Youtube: Podrás hacer clic en el botón de “Compartir”y luego seleccionar la opción de “Incorporar” para obtener el código iframe que deberás sumar a tu archivo HTML.
+            
+                para un video propio: <video src="nombre-del-video.mp4" controls></video>-->
+            </section>
+    </div>
+
+        <footer> <!-- <footer></footer> es para el contenido de pie de index.html(mejora estructura semantica y agrega informacion adicional para las tecnologias de asistencia)-->
+                <p class="pf">este es el contenido del footer</p>
+
+            <!-- aria-label El atributo “aria-label” proporciona una etiqueta alternativa para el botón que es leída por las tecnologías de asistencia, como lectores de pantalla, para mejorar la accesibilidad.-->
+        </footer>
+    <button class="botonalert" onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+        
+        <script src="java.js"></script>
+</body>
+</html>

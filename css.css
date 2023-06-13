@@ -154,6 +154,10 @@ justify-content: center;
 margin-inline: auto;
 }
 
+.greeting{
+    text-align: center;
+}
+
 
 @media (max-width: 600px) {
     nav ul{
